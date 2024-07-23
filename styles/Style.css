@@ -1,0 +1,342 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.main1 {
+    background-image: url('../Images/A2-1920.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main2 {
+    background-image: url('../Images/A2-1920.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main3 {
+    background-image: url('../Images/A2-1920.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-container {
+    background-color: rgba(128, 128, 128, 0.9);
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+}
+h1, h2, .carte-temoignage-nom {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 25px;
+    color: white;
+    margin: 20px 0;
+    background-color: #44A33D;
+}
+.cta-button {
+    display: inline-block;
+    background-color: #D32F2F;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    margin: 20px auto 0 auto;
+}
+.cta-button:hover {
+    background-color: #B71C1C;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    max-width: 150px;
+    margin-right: 20px;
+}
+nav {
+    background-color: #44A33D;
+    flex-grow: 1;
+}
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+.navbar li {
+    margin: 0;
+}
+.navbar li:not(:last-child) {
+    border-right: 2px solid white;
+    margin-right: 3px;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    background-color: #98C83E;
+    transition: background-color 0.3s;
+}
+.navbar a:hover {
+    background-color: #44A33D;
+}
+.clear {
+    clear: both;
+}
+.rubriqueFormation-Titre {
+    background-color: #44A33D;
+    padding: 15px 30px;
+    border-radius: 25px;
+    color: white;
+    width: 210px;
+    align-self: center;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.containerformation {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    align-items: flex-start;
+  } 
+.colFormation {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.9);
+    border-radius: 25px;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  .rubriqueFormation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding:15px;
+    border: 3px solid rgb(192, 158, 192);
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+p, .carte-temoignage-message {
+    color:white;
+}
+.temoignages {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+}
+.carte-temoignage {
+    background-color: rgba(128, 128, 128, 0.9);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+
+}
+.carte-temoignage-entreprise, .carte-temoignage-fonction {
+    color: purple;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.carte-temoignage-photo img {
+    border: 10px solid white;
+    box-shadow: 0 0 0 2px purple;
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    
+}
+.gallery {
+    background-color: rgb(155, 202, 68, 0.9);
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding: 20px;
+    width: 90%;
+    margin-top: 20px;
+}
+.gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.backgroundgrey {
+    background-color: rgba(128, 128, 128, 0.9);
+    border-radius: 25px;
+    width: 90%;
+    padding: 20px;
+    margin-top: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+form label {
+    color: white;
+    font-size: 17px;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.form-group label {
+    flex: 1;
+    margin-right: 10px;
+    text-align: right;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select,
+.form-group textarea {
+    flex: 2;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.radio-group input[type="radio"] {
+    margin-right: 10px;
+}
+.radio-group label {
+    margin-right: 20px;
+}
+form .button {
+    text-align: center;
+    margin-top: 20px;
+}
+form input[type="submit"] {
+    background-color: #44A33D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+form input[type="submit"]:hover {
+    background-color: darkgreen;
+}
+
+@media (max-width: 900px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar {
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar li {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid white;
+    }
+    .navbar li:not(:last-child) {
+        margin-right: 0;
+    }
+    .navbar a {
+        padding: 10px 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .containerformation {
+        flex-direction: column;
+        align-items: center;
+    }
+    .colFormation {
+        width: 90%;
+        margin: 10px 0;
+    }
+    .temoignages {
+        flex-direction: column;
+        align-items: center;
+    }
+    .carte-temoignage {
+        width: 90%;
+        margin: 10px 0;
+    }
+    .backgroundgrey {
+        width: 95%;
+        padding: 15px;
+    }
+    form {
+        width: 100%;
+        padding: 15px;
+    }
+    .form-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .form-group label {
+        text-align: left;
+        margin-bottom: 5px;
+    }
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="tel"],
+    .form-group select,
+    .form-group textarea {
+        width: 100%;
+    }
+    .radio-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .radio-group input[type="radio"] {
+        margin-right: 5px;
+    }
+    .radio-group label {
+        margin-right: 0;
+    }
+}
